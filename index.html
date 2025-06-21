@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taj Travels Garhwal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    .slider {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+    }
+    .slides {
+      display: flex;
+      width: 800%;
+      animation: slide 32s infinite;
+    }
+    .slides img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+    .center-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px #000;
+      text-align: center;
+    }
+    @keyframes slide {
+      0% { margin-left: 0; }
+      12.5% { margin-left: 0; }
+      14% { margin-left: -100vw; }
+      26.5% { margin-left: -100vw; }
+      28% { margin-left: -200vw; }
+      40.5% { margin-left: -200vw; }
+      42% { margin-left: -300vw; }
+      54.5% { margin-left: -300vw; }
+      56% { margin-left: -400vw; }
+      68.5% { margin-left: -400vw; }
+      70% { margin-left: -500vw; }
+      82.5% { margin-left: -500vw; }
+      84% { margin-left: -600vw; }
+      96.5% { margin-left: -600vw; }
+      98% { margin-left: -700vw; }
+      100% { margin-left: -700vw; }
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <div class="slides">
+      <img src="tempo.jpg" alt="Tempo Traveller">
+      <img src="kalpa-town-aerial-panoramic-view-india.jpg" alt="Kalpa Town">
+      <img src="shutterstock_794720590.jpg" alt="Mussoorie">
+      <img src="Untitled-design-53.jpg" alt="Yamunotri">
+      <img src="Badrinath-Temple.jpg" alt="Badrinath">
+      <img src="63d0386aeb2869624a09f4617871c2cf.jpg" alt="Kedarnath">
+      <img src="small.jpg" alt="Haridwar">
+      <img src="fe2de4cb-a1c5-4e83-98ef-37a8c0aad7a5-min.png" alt="Logo or Banner">
+    </div>
+    <div class="center-text">Taj Travels Garhwal</div>
+  </div>
+</body>
+</html>
